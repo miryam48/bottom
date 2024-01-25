@@ -15,6 +15,7 @@ class _contactsState extends State<contacts> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Contacts'),
+        centerTitle: true,
       ),
       body: Center(
         child: Text('Contacts'),

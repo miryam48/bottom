@@ -15,6 +15,7 @@ class _searchState extends State<search> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Search'),
+        centerTitle: true,
       ),
       body: Center(
         child: Text('Search'),

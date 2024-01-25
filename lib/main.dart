@@ -23,7 +23,6 @@ int _currentindex=0;
         centerTitle: true,
       ),
       drawer: Drawer(
-        backgroundColor: Colors.green,
         child: ListView(
           children: [
             DrawerHeader(
@@ -34,7 +33,7 @@ int _currentindex=0;
                   currentAccountPicture: CircleAvatar(
                     backgroundImage: AssetImage("lib/asset/1.jpg"),
                   ),
-                )
+                ),
             ),
             ListTile(
               leading: Icon(Icons.home),
@@ -76,20 +75,3 @@ int _currentindex=0;
   }
 }
 
-
-// int _curentindex=0;
-// List pages=[drwaer(),drwaer(),drwaer()];
-// Widget build(BuildContext context) {
-//   return Scaffold(
-//       appBar: AppBar(
-//       title: Text('Drawer'),
-//   centerTitle: true,
-//   ),
-//
-//   body:pages[_curentindex],
-//   bottomNavigationBar: BottomNavigationBar(
-//   currentIndex: _curentindex, onTap: (index){
-//   setState(() {
-//   _curentindex=index;
-//   });
-//   },
