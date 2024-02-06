@@ -1,3 +1,5 @@
+import 'dart:js_util';
+
 import 'package:flutter/material.dart';
 void main(){
  runApp(MaterialApp(debugShowCheckedModeBanner: false,home: myapp(),));
@@ -40,6 +42,7 @@ class _myappState extends State<myapp> {
           ),
           drawer: Drawer(
             child: ListView(
+              padding: EdgeInsets.zero,
               children: [
                 DrawerHeader(
                   duration: Duration(seconds: 3),
